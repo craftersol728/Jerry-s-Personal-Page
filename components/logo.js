@@ -1,41 +1,40 @@
 import Link from 'next/link'
-import Image from 'next/image'
-import { text , useColorModeValue } from '@chakra-ui/react'
+import { Text, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
-    font-weight:bold;
-    font-size: 18px;
-    display: inline-flex:
-    align-items: center;
-    height:30px;
-    line-height: 20px;
-    padding:10px;
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  height: 30px;
+  line-height: 20px;
+  padding: 10px;
+  > svg {
+    transition: 200ms ease;
+  }
+  &:hover > svg {
+    transform: rotate(20deg);
+  }
+`
 
-    &:hover { img{
-        transform: rotate(20deg);
-    }`
+const Logo = () => {
+  return (
+    (<Link href="/" scroll={false}>
 
-    const Logo = () => {
-        const jerryWImage = `/images/jerryW{useColorModeValue('','-dark')}.png`
+      <LogoBox>
+        <Text
+          color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+          fontFamily='M PLUS Rounded 1c", sans-serif'
+          fontWeight="bold"
+          ml={3}
+        >
+          Jerry Wan
+        </Text>
+      </LogoBox>
 
-        return (
-            <Link href="/">
-                <a>
-                    <LogoBox>
-                        <Image src={jerryWImage} width={20} height={20} alt="logo"/>
+    </Link>)
+  );
+}
 
-                        
-                            <Text color={useColorModeValue('gray.800','whiteAlpha.900')}
-                            fontFamily = 'M PLUS Rounded 1c'
-                            fontWeight = "bold"
-                            ml = {3}>Jerry Wan
-
-                            </Text>
-                    </LogoBox>
-                </a>
-            </Link>
-        )
-    }
-
-    export default Logo
+export default Logo
