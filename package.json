@@ -7,20 +7,20 @@
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
-    "prettier": "prettier --write .",
+    "prettier": "prettier -write .",
     "lint": "next lint"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/craftersol728/v1ptflio.git"
+    "url": "git+https://github.com/craftersol728/Jerry-s-Personal-Page"
   },
   "keywords": [],
   "author": "JerryWan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/craftersol728/v1ptflio/issues"
+    "url": "https://github.com/craftersol728/Jerry-s-Personal-Page/issues"
   },
-  "homepage": "https://github.com/craftersol728/v1ptflio#readme",
+  "homepage": "https://github.com/craftersol728/Jerry-s-Personal-Page#readme",
   "dependencies": {
     "@chakra-ui/react": "^2.5.5",
     "@emotion/react": "^11.10.6",
