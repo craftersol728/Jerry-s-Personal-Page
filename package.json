@@ -1,0 +1,38 @@
+{
+  "name": "v1ptflio",
+  "version": "1.0.0",
+  "description": "Jerry's site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write .",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craftersol728/v1ptflio.git"
+  },
+  "keywords": [],
+  "author": "JerryWan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craftersol728/v1ptflio/issues"
+  },
+  "homepage": "https://github.com/craftersol728/v1ptflio#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "framer-motion": "^10.10.0",
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-next": "^13.2.4",
+    "prettier": "^2.8.7"
+  }
+}
