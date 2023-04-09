@@ -81,7 +81,7 @@ const Navbar = props => {
                     <Menu>
                         <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline "aria-label="Options" />
                         <MenuList>
-                        <NextLink href="/" passHref>
+                        <NextLink href="https://github.com/craftersol728/Jerry-s-Personal-Page" passHref>
                             <MenuItem as = {Link}>About</MenuItem>
                         </NextLink>                            
                         <NextLink href="/works" passHref>
@@ -89,6 +89,9 @@ const Navbar = props => {
                         </NextLink>
                         <NextLink href="/posts" passHref>
                             <MenuItem as = {Link}>Posts</MenuItem>
+                         </NextLink>
+                         <NextLink href="/posts" passHref>
+                            <MenuItem as = {Link}>View Source</MenuItem>
                          </NextLink>
                         </MenuList>
                         
