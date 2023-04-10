@@ -1,6 +1,7 @@
-import { Container , Box, Heading ,Image, useColorModeValue} from "@chakra-ui/react"
+
+import { Container , Box, Heading ,Image, useColorModeValue,} from "@chakra-ui/react"
 import Section from "../components/section"
-import Paragraph from "../components/paragraoh"
+import Paragraph from "../components/paragraph"
 
 const Page = () => {
   return (
@@ -25,7 +26,11 @@ const Page = () => {
             <Heading as="h3" variant="section-title">
                 Work
             </Heading>
-            <Paragraph>Here are some of my works.</Paragraph>
+            <Paragraph>
+
+                Jerry is a freelance and a full-stack developer based in California with a passion for building digital services/stuff he wants. He has a knack for all things launching products, from planning and designing all the way to solving real-life problems with code. When not online, he loves hanging out with his friends and playing video games. Currently, he is working full time at a private tax preparation office, but he wishes he can work for a company that will need his skill to help people/useres have a better life.
+
+            </Paragraph>
         </Section>
     </Container>
   )
