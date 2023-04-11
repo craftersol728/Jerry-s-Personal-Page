@@ -77,15 +77,6 @@ const Page = () => {
             </Paragraph>
         </Section>
 
-
-
-
-
-
-
-
-
-
     </Container>
   )
 }
