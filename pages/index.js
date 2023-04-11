@@ -73,7 +73,7 @@ const Page = () => {
                 I ❤
             </Heading>
             <Paragraph>
-                Music, Video Games, Anime, Manga, Movies, Playing Guitar, and learning new coding languages.
+                Helping People,Music, Playing and Developing Video Games, Anime, Manga, Movies, Playing Guitar,Pets and learning new coding languages. 
             </Paragraph>
         </Section>
 
