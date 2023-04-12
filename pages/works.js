@@ -1,6 +1,6 @@
 import { Container, Heading,SimpleGrid,Divider} from "@chakra-ui/react"; 
 import Section from "../components/section";
-import { WorkGridItem } from "../components/grid-items";
+import { WorkGridItem } from "../components/grid-item";
 
 import BBB from "../public/images/BBB.jpg";
 import KittyKlickerGame from "../public/images/kokomi.png";
