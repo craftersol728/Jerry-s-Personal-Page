@@ -1,12 +1,21 @@
 import NextLink from 'next/link'
-import { Container , Box, Heading ,Image, useColorModeValue,Link, Button} from "@chakra-ui/react"
+import { 
+    Container , 
+    Box, 
+    Heading ,
+    Image, 
+    useColorModeValue,
+    Link, 
+    Button} from "@chakra-ui/react"
 import Section from "../components/section"
 import Paragraph from "../components/paragraph"
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import Layout   from '../components/layouts/article.js'
 import { BioSection,BioYear } from '../components/bio'
 
 const Page = () => {
   return (
+    <Layout>
     <Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500','whiteAlpha.200')} mb={6} p={3} align="center">
             Hello, I&apos;m a full-stack developer. 
@@ -78,6 +87,7 @@ const Page = () => {
         </Section>
 
     </Container>
+    </Layout>
   )
 }
 
