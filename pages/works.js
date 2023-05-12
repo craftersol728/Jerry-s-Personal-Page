@@ -21,6 +21,7 @@ const Works = () => {
                     Kitty Clicker is a clicker-style game that uses third party APIs to give motivational quotes and show the current weather on the background.
                     </WorkGridItem>
                 </Section>
+                <Divider my={6} />
                 <Section>
                     <WorkGridItem id="Taxplus" title="Taxplus-Website" thumbnail={BBB}>
                         A website built for Taxplus.
@@ -28,6 +29,7 @@ const Works = () => {
                 </Section>
             </SimpleGrid>
         </Container>
+        
     )
 }
 

@@ -30,6 +30,7 @@ import {
         <UnorderedList ml={4} my={4}>
           <ListItem>Project built with 3 people from my coding bootcamp</ListItem>
           <ListItem>A budgeting application that allows the user to create a budget that they want to work with, and progressively add expenses and will let you know if you are spending too much money</ListItem>
+          <ExternalLinkIcon mx="2px" />
         </UnorderedList>
   
         <List ml={4} my={4}>

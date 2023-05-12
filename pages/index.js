@@ -86,6 +86,10 @@ const Page = () => {
             </Paragraph>
         </Section>
 
+        <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
+            Inkdrop
+          </Link>
+
     </Container>
     </Layout>
   )
