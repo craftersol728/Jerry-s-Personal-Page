@@ -4,6 +4,8 @@ import {
     Box, 
     Heading ,
     Image, 
+    List,
+    ListItem,
     useColorModeValue,
     Link, 
     Button} from "@chakra-ui/react"
@@ -11,6 +13,7 @@ import Section from "../components/section"
 import Paragraph from "../components/paragraph"
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout   from '../components/layouts/article.js'
+import { IoLogoGithub,IoLogoDiscord ,IoLogoLinkedin,IoMailSharp } from 'react-icons/io5'
 import { BioSection,BioYear } from '../components/bio'
 
 const Page = () => {
@@ -86,9 +89,53 @@ const Page = () => {
             </Paragraph>
         </Section>
 
-        <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
-            Inkdrop
-          </Link>
+          <Section delay={0.3}>
+            <Heading as="h3" variant="section-title">
+                Socials
+            </Heading>
+
+            <List>
+                <ListItem>
+                     <Link href="https://github.com/craftersol728" target="_blank">
+                        <Button variant="ghost" colorScheme="blue" leftIcon={<IoLogoGithub />}>
+                            @craftersol728
+                        </Button>
+                    </Link>
+                </ListItem>
+            </List>
+
+            <List>
+                <ListItem>
+                     
+                        <Button variant="ghost" colorScheme="blue" leftIcon={<IoLogoDiscord />}>
+                            @Jun hh#1613
+                        </Button>
+                    
+                </ListItem>
+            </List>
+
+            <List>
+                <ListItem>
+                     <Link href="https://www.linkedin.com/in/jerry-wan-878944152/" target="_blank">
+                        <Button variant="ghost" colorScheme="blue" leftIcon={<IoLogoLinkedin />}>
+                            @Jerry Wan
+                        </Button>
+                    </Link>
+                </ListItem>
+            </List>
+
+            <List>
+                <ListItem>
+                <Link href="mailto:jp4eva15@gmail.com" target="_blank">
+                        <Button variant="ghost" colorScheme="blue" leftIcon={<IoMailSharp />}>
+                            @jp4eva15@gmail.com
+                        </Button>
+                </Link>
+                </ListItem>
+            </List>
+
+          </Section>
+          
 
     </Container>
     </Layout>
