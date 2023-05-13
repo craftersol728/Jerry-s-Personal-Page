@@ -16,20 +16,23 @@ import {
   import P from '../../components/paragraph'
 
   const Work = () => (
-    <Layout title="amembo">
+    <Layout title="KKG">
       <Container>
         <Title>
-          BigBoyBudgeting <Badge>2023-2023</Badge>
+        KittyKlickerGame <Badge>2023-2023</Badge>
         </Title>
         <Center my={6}>
-          <Image src="/images/works/amembo_icon.png" alt="icon" />
+          <Image src="/images/nown.png" alt="icon" />
         </Center>
         <P>
           A passive aggressive budgeting app that helps you keep track of your expenses
         </P>
         <UnorderedList ml={4} my={4}>
           <ListItem>Project built with 3 people from my coding bootcamp</ListItem>
-          <ListItem>A budgeting application that allows the user to create a budget that they want to work with, and progressively add expenses and will let you know if you are spending too much money</ListItem>
+          <ListItem>Kitty Clicker is a clicker-style game that uses third party APIs to give motivational quotes and show the current weather on the background. The purpose of this game is to aid the user in relaxation by interacting with a digital cat. The features of this game include reactive weather and time conditions as well as responses from the cat once fed, watered, and played with. This game primarily uses HTML, CSS, and JavaScript.
+
+            Our main motivation for development is for relaxation content and entertainment.
+            </ListItem>
           <ExternalLinkIcon mx="2px" />
         </UnorderedList>
   
@@ -40,7 +43,7 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Delphi</span>
+            <span>NodeJS, Electron, React Native</span>
           </ListItem>
           <ListItem>
             <Meta>Download</Meta>
