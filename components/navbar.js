@@ -79,8 +79,8 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
+          <LinkItem href="/Contact-Me" path={path}>
+          Contact Me
           </LinkItem>
           <LinkItem href="https://docs.google.com/document/d/e/2PACX-1vRy4zFlF6kdrh0Rq2LSzg1q7c8XEzbyfByZJSpGZsR_CtG0W4ZXNpTUWM0TM-0OqCk3su1tUgtT2z4P/pub">Resume</LinkItem>
           <LinkItem

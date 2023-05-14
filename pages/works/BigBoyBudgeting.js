@@ -16,7 +16,7 @@ import {
   import P from '../../components/paragraph'
 
   const Work = () => (
-    <Layout title="bbb">
+    <Layout title="Big Boi Budgeting">
       <Container>
         <Title>
           BigBoyBudgeting <Badge>2023-2023</Badge>
