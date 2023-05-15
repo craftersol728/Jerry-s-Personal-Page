@@ -68,11 +68,23 @@ const Page = () => {
 
             <BioSection>
                 <BioYear>2011</BioYear>
-                Returned to America after mastering teh Chinese language and embraced the culture
+                Returned to America after mastering the Chinese language and embraced the culture
+            </BioSection>
+            <BioSection>
+                <BioYear>2016</BioYear>
+                Graduated from Albany High School
+            </BioSection>
+            <BioSection>
+                <BioYear>2019</BioYear>
+                Required Associate's Degree from Berkeley Community Code
+            </BioSection>
+            <BioSection>
+                <BioYear>2020</BioYear>
+                Required Sales Licence and Certification from online course.
             </BioSection>
             <BioSection>
                 <BioYear>2021</BioYear>
-                Started his own business and became a top seller on ebay 1 year later
+                Started his own business and became a top % seller on ebay within the US 1 year later
             </BioSection>
             <BioSection>
                 <BioYear>2023</BioYear>
@@ -83,8 +95,41 @@ const Page = () => {
             <Heading as="h3" variant="section-title">
                 Technical Skills
             </Heading>
+            <BioSection>
+            <BioYear>Programming languages</BioYear>
+            TypeScript, Javascript
+            </BioSection>
+
+            <BioSection>
+            <BioYear>Front End</BioYear>
+            React, NextJS, HTML, CSS,Bootstrap, jQuery,APIs
+            </BioSection>
+
+            <BioSection>
+            <BioYear>Back End</BioYear>
+            Express, GraphQL,NoSQL,APIs,Model-View-Controller 
+            </BioSection>
+            <BioSection>
+            <BioYear>Programming Concepts</BioYear>
+            Object-Oriented Programming ,Object-Relational Mapping
+            </BioSection>
+            <BioSection>
+            <BioYear>Programming strategy </BioYear>
+            Progressive Web Applications
+            </BioSection>
 
             
+            
+
+            <BioSection>
+            <BioYear>Database</BioYear>
+            MySQL, Mongo
+            </BioSection>
+
+            <BioSection>
+            <BioYear>Tools or FrameWork</BioYear>
+            NodeJS
+            </BioSection>
  
 
 
