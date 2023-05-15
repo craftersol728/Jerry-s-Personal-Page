@@ -29,7 +29,7 @@ import {
         </P>
         <UnorderedList ml={4} my={4}>
           <ListItem>
-          Built a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
+          Built a command-line application from scratch to manage a company &apos;s employee database, using Node.js, Inquirer, and MySQL.
           </ListItem>
           
           

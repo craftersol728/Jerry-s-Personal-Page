@@ -38,7 +38,7 @@ import {
             It will have a clean, polished, and responsive user interface. 
           </ListItem>
           <ListItem>
-          Amazing work Jerry! Absolutely hit the nail on the head with this assignment regarding the requirements. Each timeblock contains an input field and save button, clicking a time block's save button saves the input text to local storage allowing the text to persist when the application is refreshed, and each timeblock is color coded to indicate whether it is in a past, present, or future hour. Your repo follows good practices for naming conventions, indentations, and file structure. Keep up the good work!
+          Amazing work Jerry! Absolutely hit the nail on the head with this assignment regarding the requirements. Each timeblock contains an input field and save button, clicking a time block&apos;s save button saves the input text to local storage allowing the text to persist when the application is refreshed, and each timeblock is color coded to indicate whether it is in a past, present, or future hour. Your repo follows good practices for naming conventions, indentations, and file structure. Keep up the good work!
           </ListItem>
           <ExternalLinkIcon mx="2px" />
         </UnorderedList>

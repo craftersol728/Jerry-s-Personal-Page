@@ -110,7 +110,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Required Associate's Degree from Berkeley Community Code
+            Required Associate &apos;s Degree from Berkeley Community Code
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>

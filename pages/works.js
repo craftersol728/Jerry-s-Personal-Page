@@ -46,7 +46,7 @@ const Works = () => {
                 </Section>
                 <Section>
                     <WorkGridItem id="PasswordGenerator" title="PasswordGenerator" thumbnail={PasswordGenerator}>
-                    An application that an employee can use to generate a random password based on criteria they've selected.
+                    An application that an employee can use to generate a random password based on criteria they&apos;ve selected.
                     </WorkGridItem>
                 </Section>
                 <Section>
@@ -61,7 +61,7 @@ const Works = () => {
                 </Section>
                 <Section>
                     <WorkGridItem id="Professional README Generator" title="Professional README Generator" thumbnail={README}>
-                    Created a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer packageLinks to an external site..
+                    Created a command-line application that dynamically generates a professional README.md file from a user&apos;s input using the Inquirer packageLinks to an external site..
                     </WorkGridItem>
                 </Section>
                 <Section>
@@ -76,7 +76,7 @@ const Works = () => {
                 </Section>
                 <Section>
                     <WorkGridItem id="Employee-Tracker" title="Employee-Tracker" thumbnail={ET}>
-                    Built a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
+                    Built a command-line application from scratch to manage a company&apos;s employee database, using Node.js, Inquirer, and MySQL.
                     </WorkGridItem>
                 </Section>
                 <Section>
