@@ -4,6 +4,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../libs/model.js'
 import { TableSpinner, TableContainer } from './voxel-table-loader'
 
+
 function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4))
 }
@@ -12,7 +13,7 @@ const VoxelTable = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlTableGLB = (process.env.NODE_ENV === 'production' ? 'https://craftersol728.github.io/Jerry-s-Personal-Page' : '') + '/dog.glb'
+  const urlTableGLB = (process.env.NODE_ENV === 'production' ? 'https://jerry-s-personal-page-si5w.vercel.app' : '') + '/dog.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
