@@ -29,7 +29,7 @@ import {
           Full stack web dev for taxplus
         </P>
         <UnorderedList ml={4} my={4}>
-          <ListItem>Project built with Just me for my current boss</ListItem>
+          <ListItem>Project built with React.js for my current boss</ListItem>
 
           <ExternalLinkIcon mx="2px" />
         </UnorderedList>
