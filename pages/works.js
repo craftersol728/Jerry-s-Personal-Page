@@ -18,6 +18,7 @@ import Regex from "../public/images/works/Regex.png";
 import SNAPI from "../public/images/works/18.png";
 import JATE from "../public/images/works/JATE.png";
 import REACT from "../public/images/works/REACT.png";
+import Taxplus from "../public/images/works/taxplus.png"
 
 
 //---------------------------------------------------------------
@@ -31,6 +32,11 @@ const Works = () => {
                 <Section>
                     <WorkGridItem id="BigBoyBudgeting" title="BigBoyBudgeting" thumbnail={BBB}>
                         A Passive Aggresive Budgeting App
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id="TaxPlus" title="Taxplus" thumbnail={Taxplus}>
+                        Built front end website for small private tax buisness
                     </WorkGridItem>
                 </Section>
                 <Section>

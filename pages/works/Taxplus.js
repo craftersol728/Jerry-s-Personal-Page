@@ -15,6 +15,7 @@ import {
   import { Title, WorkImage, Meta } from '../../components/work'
   import P from '../../components/paragraph'
 
+
   const Work = () => (
     <Layout title="bbb">
       <Container>
@@ -22,7 +23,7 @@ import {
           Tax Plus <Badge>2023-2023</Badge>
         </Title>
         <Center my={6}>
-          <Image src="/images/nown.png" alt="icon" />
+          <Image src="/images/works/taxplus.png" alt="icon" />
         </Center>
         <P>
           Full stack web dev for taxplus
@@ -40,25 +41,34 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>NodeJS, Electron, React Native</span>
+            <span>React, Javascript</span>
           </ListItem>
           <ListItem>
             <Meta>Download</Meta>
-            <Link href="https://github.com/Dantallope/BigBoiBudgeting">
-              BBB
+            <Link href="https://github.com/craftersol728/template">
+              Github Source
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Meta>Link</Meta>
+            <Link href="https://taxplus-zeta-ivory.vercel.app">
+              Deployed Site
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Last update</Meta>
-            <span>2023/03/23</span>
+            <span>2023/05/21</span>
           </ListItem>
         </List>
   
         <Heading as="h4" fontSize={16} my={6}>
-          <Center>Media coverage</Center>
+          <Center>More Details</Center>
         </Heading>
         <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/BBB.jpg" alt="BBB" />
+        <WorkImage src="/images/works/taxplus.png" alt="BBB" />
+        <WorkImage src="/images/works/taxplus1.png" alt="BBB" />
+        <WorkImage src="/images/works/taxplus2.png" alt="BBB" />
+        <WorkImage src="/images/works/taxplus3.png" alt="BBB" />
       </SimpleGrid>
 
       </Container>

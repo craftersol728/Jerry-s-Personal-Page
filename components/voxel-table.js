@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
-import { loadGLTFModel } from '../libs/model.js'
+import { loadGLTFModel } from '../libs/model'
 import { TableSpinner, TableContainer } from './voxel-table-loader'
 
 
