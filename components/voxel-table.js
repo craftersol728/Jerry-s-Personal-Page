@@ -13,7 +13,7 @@ const VoxelTable = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlTableGLB = (process.env.NODE_ENV === 'production' ? 'https://jerry-s-personal-page-si5w.vercel.app' : '') + '/dog.glb'
+  const urlTableGLB = (process.env.NODE_ENV === 'production' ? 'https://jerry-s-personal-page.vercel.app' : '') + '/dog.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
