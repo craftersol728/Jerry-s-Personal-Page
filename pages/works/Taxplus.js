@@ -65,9 +65,9 @@ import {
           <Center>More Details</Center>
         </Heading>
         <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/taxplus1.png" alt="TP" />
-        <WorkImage src="/images/works/taxplus2.png" alt="TP" />
-        <WorkImage src="/images/works/taxplus3.png" alt="TP" />
+        <WorkImage src="/images/works/taxplus1.png" alt="TP1" />
+        <WorkImage src="/images/works/taxplus2.png" alt="TP2" />
+        <WorkImage src="/images/works/taxplus3.png" alt="TP3" />
       </SimpleGrid>
 
       </Container>
