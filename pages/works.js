@@ -35,8 +35,8 @@ const Works = () => {
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="TaxPlus" title="Taxplus" thumbnail={Taxplus}>
-                        Built front end website for small private tax buisness
+                    <WorkGridItem id="TaxPlus" title="TaxPlus" thumbnail={Taxplus}>
+                        Full stack website built for private tax firm.
                     </WorkGridItem>
                 </Section>
                 <Section>
